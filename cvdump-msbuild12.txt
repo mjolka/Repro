@@ -1,0 +1,216 @@
+Microsoft (R) Debugging Information Dumper  Version 14.00.23611
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+*** IDs
+
+
+*** MODULES
+
+0001 "2467122D" "Foo.<GetAsync>d__0"
+0002 "5821794C" "Foo"
+
+*** PUBLICS
+
+
+
+*** TYPES
+
+
+*** TYPES Mismatch Warnings
+
+
+*** SYMBOLS
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+
+(000004) S_GMANPROC: [0001:00000000], Cb: 000000A1, Token: 06000002, MoveNext
+         Parent: 00000000, End: 000001B8, Next: 00000000
+         Debug start: 00000000, Debug end: 00000000
+         Return Reg: ???(0x0000)
+
+(000038)  S_BLOCK32: [0001:00000000], Cb: 000000A1, 
+          Parent: 00000004, End: 00000134
+
+(000050)   S_UNAMESPACE: USystem.Threading.Tasks
+(00006C)   S_MANSLOT: 3, Local: 11000001, Compiler Generated, CS$0$0000
+(00008C)   S_MANSLOT: 4, Local: 11000001, Compiler Generated, CS$0$0001
+(0000AC)   S_MANSLOT: 5, Local: 11000001, Compiler Generated, CS$0$0002
+(0000CC)   S_MANSLOT: 0, Local: 11000001, <>t__doFinallyBodies
+(0000F8)   S_MANSLOT: 1, Local: 11000001, <>t__result
+(000118)   S_MANSLOT: 2, Local: 11000001, <>t__ex
+
+(000134)  S_END
+
+(000138)  S_OEM: {C6EA3FC9-59B3-49D6-BC25-0902BBABB460}, Type:     T_NOTYPE(0000)
+(000168)  S_OEM: {C6EA3FC9-59B3-49D6-BC25-0902BBABB460}, Type:     T_NOTYPE(0000)
+
+(0001B8) S_END
+
+** Module: "Foo" from "5821794C"
+
+
+(000004) S_GMANPROC: [0001:000000A1], Cb: 00000032, Token: 06000001, GetAsync
+         Parent: 00000000, End: 00000084, Next: 00000000
+         Debug start: 00000000, Debug end: 00000000
+         Return Reg: ???(0x0000)
+
+(000038)  S_OEM: {C6EA3FC9-59B3-49D6-BC25-0902BBABB460}, Type:     T_NOTYPE(0000)
+
+(000084) S_END
+
+
+*** GLOBALS
+
+
+S_TOKENREF: 0x00000000: (   1, 00000004) 06000002
+S_TOKENREF: 0x00000000: (   2, 00000004) 06000001
+S_PROCREF: 0x00000000: (   2, 00000004) GetAsync
+S_PROCREF: 0x00000000: (   1, 00000004) MoveNext
+
+
+*** COFF SYMBOL RVA
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** INLINEE LINES
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** LINES
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+  c:\Repos\Repro\ClassLibrary\Foo.cs (None), 0001:00000000-000000A1, line/addr pairs = 5
+
+  feefee:0                00000000      7:9    -    7:41    0000000D
+  feefee:0                00000073      8:5    -    8:6     0000008C
+  feefee:0                00000094
+
+** Module: "Foo" from "5821794C"
+
+Mod::GetEnumLines failed
+
+
+*** IL LINES
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+Mod::GetEnumILLines failed
+
+
+*** SOURCE FILES
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+     0 c:\Repos\Repro\ClassLibrary\Foo.cs (None)
+
+** Module: "Foo" from "5821794C"
+
+
+*** SECTION CONTRIBUTIONS
+
+  Imod  Address        Size      Characteristics
+  0001  0001:00000000  000000A1  00000000
+  0002  0001:000000A1  00000032  00000000
+
+*** SEGMENT MAP
+
+Sec  flags  ovl   grp   frm sname cname    offset    cbSeg
+ 01  010d  0000  0000  0001  ffff  ffff  00000000 000000d3
+ 02  0208  0000  0000  0000  ffff  ffff  00000000 ffffffff
+
+*** FPO
+
+DBIOpenDbg(, dbgtypeFPO,) failed.
+DBIOpenDbg(, dbgtypeNewFPO,) failed.
+
+*** TokenMap
+
+DBIOpenDbg(, dbgtypeTokenRidMap,) failed.
+
+*** FIXUPS
+
+DBIOpenDbg(, dbgtypeFixup,) failed.
+
+*** OMAP FROM SRC
+
+DBIOpenDbg(, dbgtypeOmapFromSrc,) failed.
+
+*** OMAP TO SRC
+
+DBIOpenDbg(, dbgtypeOmapToSrc,) failed.
+
+*** PDATA/XDATA
+
+DBIOpenDbg(, dbgtypePdata,) failed.
+
+*** SECTION HEADERS
+
+
+SECTION HEADER #1
+         name
+      D3 virtual size
+       0 virtual address
+      D3 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+       0 flags
+         (no align specified)
+
+*** ORIGINAL SECTION HEADERS
+
+DBIOpenDbg(, dbgtypeSectionHdrOrig,) failed.
+
+*** CROSS MODULE EXPORTS
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** CROSS MODULE IMPORTS
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** FUNCTION TOKEN MAP
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** TYPE TOKEN MAP
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** MERGED ASSEMBLY INPUT
+
+** Module: "Foo.<GetAsync>d__0" from "2467122D"
+
+** Module: "Foo" from "5821794C"
+
+
+*** STRINGTABLE
+
+00000001 c:\Repos\Repro\ClassLibrary\Foo.cs
+00000024 
+00000025 c:\repos\repro\classlibrary\foo.cs
